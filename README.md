@@ -1,1 +1,1 @@
-# -DOM-chekpoint
+# -DOM-checkpoint
