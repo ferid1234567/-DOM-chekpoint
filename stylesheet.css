@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    text-shadow: 2px 2px 10px white;
+    font-family:Arial, Helvetica, sans-serif;
+  font-style: italic;
+
+}
+body {
+    background-image: url('./img/pcgamer.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+    
+}
+
+
+.shop {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+h1 {
+    box-shadow: 1px 1px 10px white;
+    text-shadow: 1px 1px 10px white;
+    text-align: center;
+}
+
+#carre1,
+#carre2,
+#carre3 {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    height: 150px;
+    box-shadow: 1px 1px 10px white;
+    text-shadow: 1px 1px 10px white;
+}
+
+h2 {
+    font-size: 20px;
+    padding: 80px 20px;
+}
+
+#col1,
+#col2,
+#col3,
+#re1,
+#re2,
+#re3 {
+
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 20px;
+    transition: all 1s ease .5ms;
+ 
+}
+
+#col1:hover,
+#col2:hover,
+#col3:hover,
+#re1:hover,
+#re2:hover,
+#re3:hover {
+    color: rgba(255, 0, 0, 0.664);
+ 
+ 
+}
+.plus {
+
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+    margin: 80px 20px;
+}
+.plus>span:hover
+{
+    color: rgba(255, 0, 0, 0.664);
+}
+
+.red {
+    color: rgba(255, 0, 0, 0.664);
+}
+
+img
+{
+    max-width:400px;
+    height: 150px;
+    transition: all 1s ease .5ms;
+}
+
+img:hover
+{
+    opacity: 0.6;
+}
